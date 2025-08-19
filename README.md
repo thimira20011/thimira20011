@@ -24,9 +24,9 @@
 
 ```typescript
 class Developer {
-  name: string = "Thimira Rashmika";
+  name: string = "Thimira Niranjaya";
   location: string = "Sri Lanka 🇱🇰";
-  education: string = "Computer Science Student";
+  education: string = "Information Systems Student";
   
   currentFocus: string[] = [
     "Full-Stack Development",
