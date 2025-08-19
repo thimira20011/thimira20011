@@ -210,11 +210,103 @@ mindmap
 
 ---
 
-## 💻 Coding Activity
+## 💻 Development Highlights
 
 <div align="center">
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+### 📈 This Week's Focus
+```text
+🔥 Information Systems Projects    ████████████████████░   85%
+💻 Web Development                 ████████████████░░░░░   75%
+📚 Learning New Technologies       ████████████░░░░░░░░░   60%
+🌐 Firebase Integration           ███████████░░░░░░░░░░░   55%
+```
+
+### 🎯 Current Learning Path
+```mermaid
+graph LR
+    A[Information Systems] --> B[Database Design]
+    A --> C[System Analysis]
+    B --> D[Firebase]
+    C --> E[Business Logic]
+    D --> F[Full Stack Apps]
+    E --> F
+    F --> G[Enterprise Solutions]
+```
+
+</div>
+
+---
+
+## 🌟 What I'm Up To
+
+<img align="right" alt="Night Coding" width="300" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif">
+
+- 🎓 Currently studying **Information Systems** at **Sabaragamuwa University of Sri Lanka**
+- 🔭 Working on **Full-Stack Web Applications** and **System Analysis Projects**
+- 🌱 Learning **Enterprise Systems, Database Management & Business Intelligence**
+- 👯 Looking to collaborate on **Information System Solutions & Web Development**
+- 🤝 Open to **Internship & Job Opportunities in IT & Development**
+- 💬 Ask me about **JavaScript, Java, Firebase, System Design, Web Development**
+- ⚡ Fun fact: **I love turning complex business problems into elegant code solutions! 💡**
+
+<br clear="both">
+
+---
+
+## 🤝 Let's Connect & Collaborate
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thimira20011)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/your-handle)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://your-portfolio.com)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/your-server)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💭 Random Dev Quote
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🎯 Coding Stats & Activity
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=thimira20011&theme=radical" alt="GitHub Profile Summary"/>
+
+</div>
+
+<div align="center">
+  
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=thimira20011&theme=radical" alt="Top Languages by Repo"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=thimira20011&theme=radical" alt="Top Languages by Commits"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=thimira20011&theme=radical" alt="Stats"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=thimira20011&theme=radical&utcOffset=5.5" alt="Productive Time"/>
+
+</div>
+
+---
+
+<div align="center">
+
+**✨ "Code is like humor. When you have to explain it, it's bad." - Cory House ✨**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 
 </div>
