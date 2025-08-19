@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Thimira%20Rashmika&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Thimira%20Niranjaya&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" />
 
 <!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Full-Stack+Developer;Problem+Solver;Tech+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Information+Systems+Student;Full-Stack+Developer;Problem+Solver;Tech+Enthusiast" alt="Typing SVG" />
 </p>
 
 <!-- Profile Views Counter -->
@@ -27,18 +27,20 @@ class Developer {
   name: string = "Thimira Niranjaya";
   location: string = "Sri Lanka 🇱🇰";
   education: string = "Information Systems Student";
+  university: string = "Sabaragamuwa University of Sri Lanka";
   
   currentFocus: string[] = [
     "Full-Stack Development",
+    "Information Systems",
     "Firebase Integration",
     "UI/UX Design",
-    "Open Source Contribution"
+    "System Analysis & Design"
   ];
   
   lifePhilosophy: string = "Code is poetry written in logic";
   
   getCurrentStatus(): string {
-    return "Building the future, one commit at a time ✨";
+    return "Building innovative solutions through Information Systems 🎓";
   }
 }
 
@@ -223,12 +225,13 @@ mindmap
 
 <img align="right" alt="Night Coding" width="300" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif">
 
-- 🔭 Currently working on **Full-Stack Web Applications**
-- 🌱 Learning **Cloud Technologies & DevOps**
-- 👯 Looking to collaborate on **Open Source Projects**
-- 🤝 Open to **Internship & Job Opportunities**
-- 💬 Ask me about **JavaScript, Java, Firebase, Web Development**
-- ⚡ Fun fact: **I debug with console.log and I'm not ashamed! 😄**
+- 🎓 Currently studying **Information Systems** at **Sabaragamuwa University of Sri Lanka**
+- 🔭 Working on **Full-Stack Web Applications** and **System Analysis Projects**
+- 🌱 Learning **Enterprise Systems, Database Management & Business Intelligence**
+- 👯 Looking to collaborate on **Information System Solutions & Web Development**
+- 🤝 Open to **Internship & Job Opportunities in IT & Development**
+- 💬 Ask me about **JavaScript, Java, Firebase, System Design, Web Development**
+- ⚡ Fun fact: **I love turning complex business problems into elegant code solutions! 💡**
 
 <br clear="both">
 
