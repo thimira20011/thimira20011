@@ -32,7 +32,7 @@ class Developer {
   currentFocus: string[] = [
     "Full-Stack Development",
     "Information Systems",
-    "Firebase Integration",
+    "Backend Integration",
     "UI/UX Design",
     "System Analysis & Design"
   ];
@@ -219,7 +219,7 @@ mindmap
 graph LR
     A[Information Systems] --> B[Database Design]
     A --> C[System Analysis]
-    B --> D[Firebase]
+    B --> D[Backend Logic]
     C --> E[Business Logic]
     D --> F[Full Stack Apps]
     E --> F
