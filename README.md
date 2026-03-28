@@ -1,17 +1,15 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Thimira%20Niranjaya&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Thimira%20Niranjaya&fontSize=72&fontAlignY=38&animation=fadeIn&fontColor=ffffff&desc=Information%20Systems%20%7C%20Full-Stack%20Developer%20%7C%20Sri%20Lanka%20%F0%9F%87%B1%F0%9F%87%B0&descAlignY=60&descSize=18" />
 
-<!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Information+Systems+Student;Full-Stack+Developer;Problem+Solver;Tech+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&width=650&height=90&lines=Information+Systems+Student+%40+SUSL;Full-Stack+%7C+.NET+%7C+React+%7C+Docker;Exploring+Cybersecurity+%26+Cloud-Native+Arch" alt="Typing SVG" />
 </p>
 
-<!-- Profile Views Counter -->
-<p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=thimira20011&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/thimira20011?label=Followers&style=for-the-badge&color=0e75b6" alt="followers" />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=thimira20011&label=Profile+Views&color=0284c7&style=flat-square" />
+  <img src="https://img.shields.io/github/followers/thimira20011?label=Followers&style=flat-square&color=0284c7" />
+  <img src="https://img.shields.io/badge/Open%20to-Internships-22c55e?style=flat-square" />
 </p>
 
 </div>
@@ -69,7 +67,6 @@ const thimira = new Developer();
 ### 🔥 Backend & Database
 <div align="center">
 
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
