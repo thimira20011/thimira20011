@@ -148,28 +148,20 @@ const thimira = new Developer();
 ## 📊 GitHub Analytics
 
 <div align="center">
-  
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=thimira20011&show_icons=true&theme=radical&hide_border=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thimira20011&layout=compact&theme=radical&hide_border=true"/>
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=thimira20011&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
 <div align="center">
-  
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=thimira20011&theme=radical&hide_border=true)](https://git.io/streak-stats)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=thimira20011&theme=tokyo-night&hide_border=true&area=true)
 
 </div>
-
-### 📈 Contribution Graph
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=thimira20011&theme=react-dark&hide_border=true)
-
-</div>
-
-
 
 ---
+
+
 
 ## 🎨 Current Focus & Goals
 
