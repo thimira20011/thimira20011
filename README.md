@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Thimira%20Niranjaya&fontSize=72&fontAlignY=38&animation=fadeIn&fontColor=ffffff&desc=Information%20Systems%20%7C%20Full-Stack%20Developer%20%7C%20Sri%20Lanka%20%F0%9F%87%B1%F0%9F%87%B0&descAlignY=60&descSize=18" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&width=650&height=90&lines=Information+Systems+Student+%40+SUSL;Full-Stack+%7C+.NET+%7C+React+%7C+Docker;Exploring+Cybersecurity+%26+Cloud-Native+Arch" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&width=650&height=90&lines=Information+Systems+Student+%40+SUSL;Full-Stack+%7C+.NET+%7C+React+%7C+Docker;Exploring+Cybersecurity+%26+Cloud-Native+Arch" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -149,13 +149,13 @@ const thimira = new Developer();
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=thimira20011&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=thimira20011&theme=tokyonight&hide_border=true)](https://github.com/DenverCoder1/github-readme-streak-stats)
 
 </div>
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=thimira20011&theme=tokyo-night&hide_border=true&area=true)
+[![GitHub Contribution Calendar](https://ghchart.rshah.org/38bdf8/thimira20011)](https://github.com/thimira20011)
 
 </div>
 
@@ -243,8 +243,7 @@ graph LR
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thimira20011)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tnirajaya2001@gmail.com)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/TNiranjaya20011)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://thimira20011.github.io/personal-portfolio/)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/uNKFgMNr)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://personal-portfolio-six-livid-63.vercel.app/)
 </div>
 
 ---
