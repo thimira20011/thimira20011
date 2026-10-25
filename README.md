@@ -200,7 +200,7 @@ mindmap
 🔥 Information Systems Projects    ████████████████████░   85%
 💻 Web Development                 ████████████████░░░░░   75%
 📚 Learning New Technologies       ████████████░░░░░░░░░   60%
-🌐 Firebase Integration           ███████████░░░░░░░░░░░   55%
+☁️ Cloud Technologies              ███████████░░░░░░░░░░   55%
 ```
 
 ### 🎯 Current Learning Path
