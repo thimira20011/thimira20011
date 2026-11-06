@@ -1,0 +1,66 @@
+name: Git Koi
+
+'on':
+  schedule:
+    - cron: '20 0 * * *' # UTC, after the previous contribution day ends
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/koi.yml]
+
+permissions: {}
+
+concurrency:
+  group: git-koi
+
+jobs:
+  render:
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: yalongwastaken/git-koi@7305e9b1fadee6f43d3b4fa543a25d4cde79856e # v1.0.2
+        with:
+          body: asagi
+          output-dir: koi
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: profile-koi
+          path: koi/koi.gif
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: render
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          ref: main
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: profile-koi
+          path: ${{ runner.temp }}/profile-koi
+      - name: Publish the GIF when it changes
+        shell: bash
+        run: |
+          gif="$RUNNER_TEMP/profile-koi/koi.gif"
+          test -f "$gif"
+          test ! -L "$gif"
+          test "$(head -c 6 "$gif")" = GIF89a
+          test "$(wc -c < "$gif")" -le 5000000
+          mkdir -p koi
+          install -m 644 "$gif" koi/koi.gif
+          git add -- koi/koi.gif
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update profile koi'
+          git push origin HEAD:main
