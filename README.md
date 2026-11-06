@@ -13,26 +13,50 @@
 
 ## Selected projects
 
-### 🎓 Vouch
+<table>
+  <tbody>
+    <tr>
+      <td width="850">
+        <h3>Vouch</h3>
+        <p><img src="https://img.shields.io/badge/Campus%20platform-315C9A?style=flat-square" alt="Campus platform" /></p>
+        <p><strong>One considered match a day for university students, with peer endorsements and letter-style conversations.</strong><br />
+        The backend combines trust scoring, match ranking, and real-time letter delivery through SignalR.</p>
+        <p><code>ASP.NET Core</code> · <code>React</code> · <code>TypeScript</code> · <code>PostgreSQL</code></p>
+        <p><a href="https://github.com/thimira20011/Vouch-Backend"><strong>Explore backend →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/thimira20011/Vouch-Frontend"><strong>Explore frontend →</strong></a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-A university connection platform built around considered matches and peer endorsements.
+<table>
+  <tbody>
+    <tr>
+      <td width="850">
+        <h3>GreenOps Intelligence Hub</h3>
+        <p><img src="https://img.shields.io/badge/Green%20software-176B57?style=flat-square" alt="Green software" /></p>
+        <p><strong>Turns Azure resource usage into software carbon intensity estimates.</strong><br />
+        Polls Azure metrics every 60 seconds and uses Roslyn to flag .NET performance anti-patterns.</p>
+        <p><code>.NET</code> · <code>Azure</code> · <code>Roslyn</code> · <code>Docker</code></p>
+        <p><a href="https://github.com/thimira20011/GreenOps-Intelligence-Hub"><strong>Explore GreenOps →</strong></a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-`ASP.NET Core` · `PostgreSQL` · `SignalR` · `React` · `TypeScript`  
-[Backend](https://github.com/thimira20011/Vouch-Backend) · [Frontend](https://github.com/thimira20011/Vouch-Frontend)
-
-### 🌿 GreenOps Intelligence Hub
-
-A cloud efficiency monitor that tracks Azure resource usage and calculates software carbon intensity.
-
-`.NET` · `Azure` · `Docker`  
-[View repository](https://github.com/thimira20011/GreenOps-Intelligence-Hub)
-
-### 🏥 AyurFlow
-
-An in-progress clinic workflow project with a Go API and PostgreSQL.
-
-`Go` · `Gin` · `PostgreSQL`  
-[View repository](https://github.com/thimira20011/AyurFlow)
+<table>
+  <tbody>
+    <tr>
+      <td width="850">
+        <h3>AyurFlow</h3>
+        <p><img src="https://img.shields.io/badge/Pilot%20in%20development-7A4C23?style=flat-square" alt="Pilot in development" /></p>
+        <p><strong>A clinic management system in development for an Ayurvedic pilot.</strong><br />
+        Staff sessions and protected patient demographics APIs are in place. UI integration is pending.</p>
+        <p><code>Go</code> · <code>Gin</code> · <code>PostgreSQL</code> · <code>Next.js</code></p>
+        <p><a href="https://github.com/thimira20011/AyurFlow"><strong>Explore AyurFlow →</strong></a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## GitHub garden
 
