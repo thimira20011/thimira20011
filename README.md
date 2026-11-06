@@ -19,10 +19,12 @@
       <td width="850">
         <h3>Vouch</h3>
         <p><img src="https://img.shields.io/badge/Campus%20platform-315C9A?style=flat-square" alt="Campus platform" /></p>
-        <p><strong>One considered match a day for university students, with peer endorsements and letter-style conversations.</strong><br />
-        The backend combines trust scoring, match ranking, and real-time letter delivery through SignalR.</p>
+        <p>One considered match a day for university students, with peer endorsements and letter-style conversations.</p>
+        <p><strong>My contribution:</strong> Designed the backend architecture around campus access, trust scoring, and daily matching.</p>
+        <p><a href="./assets/projects/vouch-preview.png"><img src="./assets/projects/vouch-preview.png" width="680" alt="Vouch design preview showing a daily introduction, shared interests, and peer endorsements using sample data" /></a></p>
+        <p><sub>Daily introduction screen from the sample-data preview.</sub></p>
         <p><code>ASP.NET Core</code> · <code>React</code> · <code>TypeScript</code> · <code>PostgreSQL</code></p>
-        <p><a href="https://github.com/thimira20011/Vouch-Backend"><strong>Explore backend →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/thimira20011/Vouch-Frontend"><strong>Explore frontend →</strong></a></p>
+        <p><a href="https://github.com/thimira20011/Vouch-Frontend#connection-screens-and-design-preview"><strong>Run the preview →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/thimira20011/Vouch-Backend">Backend source</a></p>
       </td>
     </tr>
   </tbody>
@@ -34,10 +36,12 @@
       <td width="850">
         <h3>GreenOps Intelligence Hub</h3>
         <p><img src="https://img.shields.io/badge/Green%20software-176B57?style=flat-square" alt="Green software" /></p>
-        <p><strong>Turns Azure resource usage into software carbon intensity estimates.</strong><br />
-        Polls Azure metrics every 60 seconds and uses Roslyn to flag .NET performance anti-patterns.</p>
+        <p>Turns Azure resource usage into software carbon intensity estimates and flags .NET performance anti-patterns with Roslyn.</p>
+        <p><strong>My contribution:</strong> Built the 60-second Azure telemetry collector and carbon-intensity calculations, then integrated Prometheus and Grafana.</p>
+        <p><a href="./assets/projects/greenops-grafana.png"><img src="./assets/projects/greenops-grafana.png" width="680" alt="GreenOps Grafana dashboard showing API latency and HTTP request rates" /></a></p>
+        <p><sub>Grafana dashboard showing API latency and request traffic.</sub></p>
         <p><code>.NET</code> · <code>Azure</code> · <code>Roslyn</code> · <code>Docker</code></p>
-        <p><a href="https://github.com/thimira20011/GreenOps-Intelligence-Hub"><strong>Explore GreenOps →</strong></a></p>
+        <p><a href="https://github.com/thimira20011/GreenOps-Intelligence-Hub#-quick-start"><strong>Run the demo →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/thimira20011/GreenOps-Intelligence-Hub">Source</a></p>
       </td>
     </tr>
   </tbody>
@@ -49,14 +53,29 @@
       <td width="850">
         <h3>AyurFlow</h3>
         <p><img src="https://img.shields.io/badge/Pilot%20in%20development-7A4C23?style=flat-square" alt="Pilot in development" /></p>
-        <p><strong>A clinic management system in development for an Ayurvedic pilot.</strong><br />
-        Staff sessions and protected patient demographics APIs are in place. UI integration is pending.</p>
+        <p>A team project building the foundations for an Ayurvedic clinic pilot. UI integration is in progress.</p>
+        <p><strong>My contribution:</strong> Implemented staff sessions, CSRF protection, and authorization checks for protected patient records.</p>
         <p><code>Go</code> · <code>Gin</code> · <code>PostgreSQL</code> · <code>Next.js</code></p>
-        <p><a href="https://github.com/thimira20011/AyurFlow"><strong>Explore AyurFlow →</strong></a></p>
+        <p><a href="https://github.com/thimira20011/AyurFlow/commit/b415a14e2d129fc2dab1c4273bd18b6984cf6309"><strong>See the authorization work →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/thimira20011/AyurFlow">Source</a></p>
       </td>
     </tr>
   </tbody>
 </table>
+
+<details>
+<summary>AyurFlow architecture at a glance</summary>
+
+```mermaid
+flowchart LR
+    UI["Next.js staff UI"] -->|"/api/v1"| API["Go / Gin API"]
+    API -->|pgx| DB[("PostgreSQL")]
+```
+
+</details>
+
+### Engineering highlight · NearU
+
+**49% smaller backend container · 213 MB → 108 MB.** As lead developer on a four-person team, I moved NearU’s .NET backend to a non-root Ubuntu Chiseled runtime and automated build, test, and delivery with GitHub Actions. [View the Dockerfile →](https://github.com/Nearu-Project-SUSL/NearU-Backend/blob/HEAD/Dockerfile)
 
 ## GitHub garden
 
