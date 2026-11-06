@@ -148,6 +148,12 @@ const thimira = new Developer();
 ## 📊 GitHub Analytics
 
 <div align="center">
+  <a href="https://github.com/yalongwastaken/git-koi">
+    <img src="./koi/koi.gif" width="256" alt="Animated koi based on my public GitHub activity" />
+  </a>
+</div>
+
+<div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=thimira20011&theme=tokyonight&hide_border=true)](https://github.com/DenverCoder1/github-readme-streak-stats)
 
