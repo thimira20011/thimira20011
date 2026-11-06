@@ -55,6 +55,8 @@
         <p><img src="https://img.shields.io/badge/Pilot%20in%20development-7A4C23?style=flat-square" alt="Pilot in development" /></p>
         <p>A team project building the foundations for an Ayurvedic clinic pilot. UI integration is in progress.</p>
         <p><strong>My contribution:</strong> Implemented staff sessions, CSRF protection, and authorization checks for protected patient records.</p>
+        <p><a href="./assets/projects/ayurflow-staff-sign-in.webp"><img src="./assets/projects/ayurflow-staff-sign-in.webp" width="680" alt="AyurFlow staff sign-in design with a forest-green welcome panel and a login form" /></a></p>
+        <p><sub>UI design preview · Staff sign-in.</sub></p>
         <p><code>Go</code> · <code>Gin</code> · <code>PostgreSQL</code> · <code>Next.js</code></p>
         <p><a href="https://github.com/thimira20011/AyurFlow/commit/b415a14e2d129fc2dab1c4273bd18b6984cf6309"><strong>See the authorization work →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/thimira20011/AyurFlow">Source</a></p>
       </td>
