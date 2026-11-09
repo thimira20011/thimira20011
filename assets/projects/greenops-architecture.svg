@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="332" viewBox="0 0 640 332" role="img" aria-labelledby="title description">
+  <title id="title">GreenOps architecture</title>
+  <desc id="description">Azure telemetry flows through a .NET collector to produce software carbon intensity estimates. C# source code goes through Roslyn to produce performance findings. Separately, Prometheus scrapes API metrics and Grafana visualizes them.</desc>
+  <rect x="0.5" y="0.5" width="639" height="331" rx="15" fill="#141d19" stroke="#46584d"/>
+  <path d="M24 67H616" stroke="#3f5147"/>
+  <g fill="#233129" stroke="#46584d">
+    <rect x="24" y="106" width="176" height="45" rx="8"/>
+    <rect x="232" y="106" width="176" height="45" rx="8"/>
+    <rect x="440" y="106" width="176" height="45" rx="8"/>
+    <rect x="24" y="185" width="176" height="45" rx="8"/>
+    <rect x="232" y="185" width="176" height="45" rx="8"/>
+    <rect x="440" y="185" width="176" height="45" rx="8"/>
+    <rect x="24" y="264" width="176" height="45" rx="8"/>
+    <rect x="232" y="264" width="176" height="45" rx="8"/>
+    <rect x="440" y="264" width="176" height="45" rx="8"/>
+  </g>
+  <g fill="none" stroke="#cbe88a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M206 129h18m-5-5 5 5-5 5m195-5h18m-5-5 5 5-5 5"/>
+    <path d="M206 208h18m-5-5 5 5-5 5m195-5h18m-5-5 5 5-5 5"/>
+    <path d="M206 287h18m-5-5 5 5-5 5m195-5h18m-5-5 5 5-5 5"/>
+  </g>
+  <g font-family="system-ui, Segoe UI, sans-serif">
+    <text x="24" y="46" fill="#f7f5e9" font-size="28" font-weight="700">GreenOps architecture</text>
+    <g fill="#cbe88a" font-size="14" font-weight="650" letter-spacing="1">
+      <text x="24" y="94">01  CARBON INTENSITY</text>
+      <text x="24" y="173">02  CODE ANALYSIS</text>
+      <text x="24" y="252">03  OBSERVABILITY</text>
+    </g>
+    <g fill="#f7f5e9" font-size="19" font-weight="600" text-anchor="middle">
+      <text x="112" y="135">Azure metrics</text>
+      <text x="320" y="135">.NET collector</text>
+      <text x="528" y="135">SCI estimates</text>
+      <text x="112" y="214">C# source code</text>
+      <text x="320" y="214">Roslyn analyzer</text>
+      <text x="528" y="214">Issues flagged</text>
+      <text x="112" y="293">API metrics</text>
+      <text x="320" y="293">Prometheus</text>
+      <text x="528" y="293">Grafana</text>
+    </g>
+  </g>
+</svg>
