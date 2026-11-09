@@ -27,10 +27,9 @@
         <p><img src="https://img.shields.io/badge/Green%20software-176B57?style=flat-square" alt="Green software" /></p>
         <p>Turns Azure resource usage into software carbon intensity estimates and flags .NET performance anti-patterns with Roslyn.</p>
         <p><strong>My contribution:</strong> Built the 60-second Azure telemetry collector and carbon-intensity calculations, then integrated Prometheus and Grafana.</p>
-        <p><a href="./assets/projects/greenops-grafana.png"><img src="./assets/projects/greenops-grafana.png" width="760" alt="GreenOps Grafana dashboard showing API latency and HTTP request rates" /></a></p>
-        <p><sub>Grafana dashboard showing API latency and request traffic.</sub></p>
+        <p><a href="./assets/projects/greenops-architecture.svg"><img src="./assets/projects/greenops-architecture.svg" width="760" alt="GreenOps architecture: Azure metrics → .NET collector → software carbon intensity estimates; C# source → Roslyn → performance findings; API metrics → Prometheus → Grafana." /></a></p>
         <p><code>.NET</code> · <code>Azure</code> · <code>Roslyn</code> · <code>Docker</code></p>
-        <p><a href="https://github.com/thimira20011/GreenOps-Intelligence-Hub#-quick-start"><strong>Run the demo →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/thimira20011/GreenOps-Intelligence-Hub">Source</a></p>
+        <p><a href="https://github.com/thimira20011/GreenOps-Intelligence-Hub#-quick-start"><strong>Run the demo →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/thimira20011/GreenOps-Intelligence-Hub">Source</a> &nbsp;·&nbsp; <a href="./assets/projects/greenops-grafana.png">View dashboard</a></p>
       </td>
     </tr>
   </tbody>
